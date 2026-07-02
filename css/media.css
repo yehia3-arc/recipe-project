@@ -63,7 +63,6 @@
     font-size: 14px !important;
   }
   .recipe-tabs {
-    flex-wrap: wrap !important;
     gap: 0 !important;
   }
 }

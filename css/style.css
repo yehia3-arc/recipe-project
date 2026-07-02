@@ -207,7 +207,6 @@ nav .container {
 .recipe-tabs {
   display: flex !important;
   flex-direction: row !important;
-  flex-wrap: nowrap !important;
   justify-content: space-between !important;
   gap: 16px !important;
   border-bottom: 2px solid #f0f0f0;
