@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fefbe9;
+}
+.small-nav {
+  margin-left: 12px;
+}
+/* Navbar Styles */
+nav .container {
+  padding: 16px 24px;
+}
+.container {
+  max-width: 1250px;
+}
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.334);
+}
+.nav-text {
+  font-size: 24px;
+  line-height: 32px;
+  color: oklch(0.21 0.034 264.665);
+}
+.nav-text-b {
+  font-size: 14px;
+  line-height: 20px;
+  color: oklch(0.551, 0.027, 264, 0.364);
+}
+.brand-icon {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(135deg, #ff5f00 0%, #fc3b2e 100%);
+  margin-right: 12px;
+}
+
+.navbar-nav .nav-link {
+  color: #555555 !important;
+  transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f54900 !important;
+}
+.underline {
+  border: 1px solid #ffedd4;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+.bars-colap {
+  color: #4a5565;
+  transition: all 0.3s ease;
+}
+.bars-colap:hover {
+  color: #f54900;
+}
+.img-navv {
+  width: 40px;
+  border: 2px solid saddlebrown;
+}
+/* Recipe Card */
+.recipe-card {
+  border-radius: 24px !important;
+
+  height: 750px;
+}
+/* Recipe Image Section */
+
+.recipe-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Rating Badge */
+.rating-badge {
+  top: 20px;
+  left: 20px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  padding: 8px 16px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.14);
+}
+
+.rating-badge #recipeRating {
+  color: oklch(0.21 0.034 264.665);
+}
+
+.rating-badge #recipeReviews {
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  color: oklch(0.551 0.027 264.364);
+}
+
+/* Meta Info */
+.recipe-meta {
+  bottom: 5px;
+  background: white;
+  border-radius: 15px;
+  margin: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.meta-s {
+  padding: 24px;
+}
+.meta-item i {
+  margin-bottom: 3px;
+}
+
+.meta-item .meta-value {
+  color: oklch(0.21 0.034 264.665);
+}
+
+.meta-item .meta-label {
+  font-size: 14px;
+  line-height: 20px;
+  color: oklch(0.551 0.027 264.364);
+}
+
+.ingredient-list,
+.instruction-list,
+.card-body,
+.nutrition-grid {
+  scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: #fddcd3 transparent;
+  transition: all 0.3s ease;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.card-body {
+  max-height: 750px;
+}
+.recipe-badges {
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.badge.c {
+  font-size: 12px;
+  line-height: 16px;
+  padding: 4px 12px;
+}
+.badge-difficulty {
+  background-color: #dbfce7;
+  color: oklch(0.527 0.154 150.069);
+}
+
+.badge-cuisine {
+  color: oklch(0.488 0.243 264.376);
+  background-color: #dbeafe;
+}
+
+.recipe-name {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  color: oklch(0.21 0.034 264.665);
+}
+
+.recipe-description {
+  color: oklch(0.446 0.03 256.802);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 24px !important;
+}
+.icon-co {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  background-color: #ffedd4;
+}
+.icon-co:hover {
+  background-color: #ffd6a7;
+}
+/* Warning Banner */
+.warning-banner {
+  display: none;
+  background: #fef2f2;
+  border-left: 4px solid #fb2c36;
+  border-radius: 8px;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.warning-banner .warning-text h4 {
+  color: oklch(0.444 0.177 26.899);
+}
+
+.warning-banner .warning-text p {
+  font-size: 14px;
+  color: oklch(0.577 0.245 27.325);
+  line-height: 20px;
+  font-weight: 400;
+}
+
+/* Tabs */
+
+.recipe-tabs {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  gap: 16px !important;
+  border-bottom: 2px solid #f0f0f0;
+  margin-bottom: 25px;
+}
+
+.recipe-tabs .nav-item {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+.recipe-tabs .nav-link {
+  width: 100%;
+  justify-content: center;
+  white-space: nowrap; /* to fix problem nav link text in straight line */
+}
+.recipe-tabs .nav-link {
+  color: oklch(0.551 0.027 264.364);
+  border: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  background: transparent;
+}
+
+.recipe-tabs .nav-link:hover {
+  color: #364153;
+  border: none;
+}
+
+.recipe-tabs .nav-link.active {
+  color: #f54900;
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f54900;
+  transition: all 0.3s ease;
+}
+.recipe-tabs .nav-link.active:hover {
+  color: #364153;
+}
+/* Tab Content */
+.tab-pane {
+  margin-top: 24px;
+}
+.tab-content {
+  max-height: 378px;
+}
+
+/* Ingredients */
+.ingredient-list {
+  list-style: none;
+  padding: 0;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  max-height: 350px;
+  overflow-y: auto;
+  background: #fffbeb;
+}
+
+.ingredient-item {
+  padding: 12px 24px;
+  border-bottom: 1px solid #f5f5f5;
+  transition: background 0.2s;
+}
+
+.ingredient-number {
+  width: 24px;
+  height: 24px;
+  background: #ff6900;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  color: white;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.ingredient-text {
+  color: #444;
+  font-size: 16px;
+  line-height: 24px;
+  color: oklch(0.373 0.034 259.733);
+  font-weight: 400;
+}
+
+/* Instructions */
+
+.instruction-step {
+  margin-bottom: 24px;
+}
+
+.step-number {
+  width: 48px;
+  height: 48px;
+  background: #ff6900;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+  flex-shrink: 0;
+}
+
+.step-text {
+  color: oklch(0.373 0.034 259.733);
+}
+
+/* Nutrition Grid */
+.nutrition-grid {
+  margin-bottom: 130px;
+}
+.nutrition-label-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.nutrition-label {
+  gap: 12px;
+}
+.nutrition-label span {
+  color: oklch(0.373 0.034 259.733);
+}
+.nutrition-item {
+  background: #f9fafb;
+  border-radius: 12px;
+}
+
+.nutrition-item .nutrition-value {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  color: oklch(0.21 0.034 264.665);
+}
+
+.nutrition-label-icon.a {
+  background-color: #ffedd4;
+}
+.nutrition-label-icon.b {
+  background-color: #dbeafe;
+}
+.nutrition-label-icon.c {
+  background-color: #fef9c2;
+}
+.nutrition-label-icon.d {
+  background-color: #ffe2e2;
+}
+.nutrition-label-icon.e {
+  background-color: #dbfce7;
+}
+.nutrition-label-icon.f {
+  background-color: #fce7f3;
+}
+
+/* Tips */
+.tip-item {
+  border-bottom: 1px solid #f5f5f5;
+  background-color: #fffbeb;
+  border-left: 4px solid #ffbb03;
+  border-radius: 12px;
+}
+
+.tip-icon {
+  margin-top: 8px;
+  width: 20px;
+  height: 20px;
+  background-color: #e17100;
+}
+
+.tip-item span {
+  color: oklch(0.373 0.034 259.733);
+}
+
+/* Button */
+.btn-container {
+  border-top: 2px solid #e5e7eb;
+  padding-top: 23px;
+  margin-bottom: 16px;
+}
+.btn-try-another {
+  background: linear-gradient(135deg, #ff6700 0%, #fb2e35 100%);
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn-try-another:hover {
+  transform: scale(1.03);
+  background-color: #f03500;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.419);
+}
+
+.btn-try-another i {
+  margin-right: 8px;
+}
