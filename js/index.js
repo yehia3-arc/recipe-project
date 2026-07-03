@@ -1005,12 +1005,6 @@ function displayRecipe(recipe) {
   renderInstructions(recipe.instructions);
   renderNutrition(recipe.nutrition);
   renderTips(recipe.tips);
-
-  // Reset tabs to show ingredients first
-  var ingredientsTab = new bootstrap.Tab(
-    document.getElementById("ingredients-tab"),
-  );
-  ingredientsTab.show();
 }
 
 // ============================================
