@@ -5,8 +5,8 @@ var rawRecipes = [
     description: "A classic Italian pasta dish with eggs, cheese, and pancetta",
     image: "./images/Creamy Spaghetti Carbonara.jpg",
 
-    prepTime: "15 min",
-    cookTime: "20 min",
+    prepTime: 15,
+    cookTime: 20,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -52,8 +52,8 @@ var rawRecipes = [
     description: "Pan-seared salmon with a sweet and savory glaze",
     image: "./images/Honey Garlic Salmon.jpg",
 
-    prepTime: "10 min",
-    cookTime: "15 min",
+    prepTime: 10,
+    cookTime: 15,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -99,8 +99,8 @@ var rawRecipes = [
     description: "Vibrant and aromatic curry with vegetables and coconut milk",
     image: "./images/Thai Green Curry.jpg",
 
-    prepTime: "15 min",
-    cookTime: "25 min",
+    prepTime: 15,
+    cookTime: 25,
 
     servings: "4 people",
     difficulty: "Intermediate",
@@ -147,8 +147,8 @@ var rawRecipes = [
     description: "Juicy homemade burger with all the fixings",
     image: "./images/Classic Beef Burger.jpg",
 
-    prepTime: "15 min",
-    cookTime: "20 min",
+    prepTime: 15,
+    cookTime: 20,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -193,8 +193,8 @@ var rawRecipes = [
     name: "Mediterranean Quinoa Bowl",
     description: "Healthy bowl with quinoa, vegetables, and tahini dressing",
     image: "./images/Mediterranean Quinoa Bowl.jpg",
-    prepTime: "20 min",
-    cookTime: "35 min",
+    prepTime: 20,
+    cookTime: 35,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -240,8 +240,8 @@ var rawRecipes = [
     description: "Rich and creamy Indian curry with tender chicken pieces",
     image: "./images/chicken tikka masala.jpg",
 
-    prepTime: "20 min",
-    cookTime: "30 min",
+    prepTime: 20,
+    cookTime: 30,
 
     servings: "4 people",
     difficulty: "Intermediate",
@@ -288,8 +288,8 @@ var rawRecipes = [
     description: "Classic Italian pizza with fresh mozzarella and basil",
     image: "./images/Margherita Pizza.jpg",
 
-    prepTime: "90 min",
-    cookTime: "12 min",
+    prepTime: 90,
+    cookTime: 12,
 
     servings: "2 people",
     difficulty: "Intermediate",
@@ -335,8 +335,8 @@ var rawRecipes = [
     description: "Flavorful Mexican tacos with seasoned ground beef",
     image: "./images/Beef Tacos.jpg",
 
-    prepTime: "15 min",
-    cookTime: "20 min",
+    prepTime: 15,
+    cookTime: 20,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -382,8 +382,8 @@ var rawRecipes = [
     name: "Caesar Salad",
     description: "Classic salad with crispy romaine and creamy dressing",
     image: "./images/Caesar Salad.jpg",
-    prepTime: "15 min",
-    cookTime: "0 min",
+    prepTime: 15,
+    cookTime: 0,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -427,8 +427,8 @@ var rawRecipes = [
     name: "Pad Thai",
     description: "Popular Thai stir-fried noodles with shrimp and peanuts",
     image: "./images/Pad Thai.jpg",
-    prepTime: "20 min",
-    cookTime: "15 min",
+    prepTime: 20,
+    cookTime: 15,
 
     servings: "2 people",
     difficulty: "Intermediate",
@@ -474,8 +474,8 @@ var rawRecipes = [
     name: "French Onion Soup",
     description: "Rich beef broth with caramelized onions and melted cheese",
     image: "./images/French Onion Soup.jpg",
-    prepTime: "15 min",
-    cookTime: "60 min",
+    prepTime: 15,
+    cookTime: 60,
 
     servings: "4 people",
     difficulty: "Intermediate",
@@ -521,8 +521,8 @@ var rawRecipes = [
     description: "Quick and healthy stir-fry with colorful vegetables",
     image: "./images/Chicken Stir-Fry.jpg",
 
-    prepTime: "15 min",
-    cookTime: "15 min",
+    prepTime: 15,
+    cookTime: 15,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -569,8 +569,8 @@ var rawRecipes = [
     description: "Layered Italian pasta with rich meat sauce and béchamel",
     image: "./images/Lasagna Bolognese.jpg",
 
-    prepTime: "30 min",
-    cookTime: "90 min",
+    prepTime: 30,
+    cookTime: 90,
 
     servings: "4 people",
     difficulty: "Intermediate",
@@ -617,8 +617,8 @@ var rawRecipes = [
     description: "Garlicky shrimp in white wine butter sauce",
     image: "./images/Shrimp Scampi.jpg",
 
-    prepTime: "10 min",
-    cookTime: "15 min",
+    prepTime: 10,
+    cookTime: 15,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -665,8 +665,8 @@ var rawRecipes = [
     description: "Hearty vegetarian curry with coconut milk",
     image: "./images/Vegetable Curry.jpg",
 
-    prepTime: "20 min",
-    cookTime: "30 min",
+    prepTime: 20,
+    cookTime: 30,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -713,8 +713,8 @@ var rawRecipes = [
     description: "Slow-cooked tender pork in smoky barbecue sauce",
     image: "./images/BBQ Pulled Pork.jpg",
 
-    prepTime: "15 min",
-    cookTime: "240 min",
+    prepTime: 15,
+    cookTime: 240,
 
     servings: "4 people",
     difficulty: "Easy",
@@ -760,8 +760,8 @@ var rawRecipes = [
     description: "Traditional layered eggplant casserole with lamb",
     image: "./images/Greek Moussaka.jpg",
 
-    prepTime: "30 min",
-    cookTime: "60 min",
+    prepTime: 30,
+    cookTime: 60,
 
     servings: "4 people",
     difficulty: "Intermediate",
@@ -807,8 +807,8 @@ var rawRecipes = [
     name: "Teriyaki Chicken Bowl",
     description: "Sweet and savory chicken over rice with vegetables",
     image: "./images/Teriyaki Chicken Bowl.jpg",
-    prepTime: "15 min",
-    cookTime: "20 min",
+    prepTime: 15,
+    cookTime: 20,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -854,8 +854,8 @@ var rawRecipes = [
     description: "Fresh Italian sandwich with mozzarella, tomato, and basil",
     image: "./images/Caprese Sandwich.jpg",
 
-    prepTime: "10 min",
-    cookTime: "5 min",
+    prepTime: 10,
+    cookTime: 5,
 
     servings: "2 people",
     difficulty: "Easy",
@@ -983,8 +983,8 @@ function displayRecipe(recipe) {
   document.getElementById("recipeRating").textContent = recipe.rating;
   document.getElementById("recipeReviews").textContent =
     `(${recipe.reviews} reviews)`;
-  document.getElementById("prepTime").textContent = `${recipe.prepTime} `;
-  document.getElementById("cookTime").textContent = `${recipe.cookTime} `;
+  document.getElementById("prepTime").textContent = `${recipe.prepTime} min`;
+  document.getElementById("cookTime").textContent = `${recipe.cookTime} min `;
   document.getElementById("servings").textContent = `${recipe.servings} `;
   document.getElementById("recipeDifficulty").textContent = recipe.difficulty;
   document.getElementById("recipeCuisine").textContent = recipe.cuisine;
@@ -994,8 +994,9 @@ function displayRecipe(recipe) {
   if (needsWarning(recipe)) {
     warningBanner.style.display = "flex";
     var totalTime = recipe.prepTime + recipe.cookTime;
+
     document.getElementById("warningText").textContent =
-      `This recipe requires more than  ${totalTime} minutes to prepare. Plan accordingly!`;
+      `This recipe requires more than  45 minutes to prepare. Plan accordingly!`;
   } else {
     warningBanner.style.display = "none";
   }
